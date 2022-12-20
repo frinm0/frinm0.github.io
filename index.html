@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>Project</title>
-			<meta charset="UTF-8">
-		</head>  
-		<body>
-			<script>
-//Ввод переменных
-let a=Number(prompt('Введите a: '));
-let b=Number(prompt('Введите b: ')); 
-let c=Number(prompt('Введите c: '));
-let d
-let n
-let x
-let x1
-let x2
-//Нахождение D
-d=(b*b)-(4*a*c)
-n=d**0.5
-//Нахождение корня 
-if (d<0) {
-	alert('Корня нет!');
-}
-else if (d == 0) {
-	x = (-b)/(2*a)
-	alert('x=' + ' ' + (x));
-}	
-else {
-	x1=((-b)-n)/(2*a)
-	x2=((-b)+n)/(2*a)
-	alert('x1=' + (x1) + ' ' + 'x2=' + (x2));
-	alert('x1=' + (x1) + ' ' + 'x2=' + (x2));
-}
-//Вывод информации на странице
-document.write('+');
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<label for='a'>Введите a: </label>
+<input id="a"/>
+<p>
+<label for='b'>Введите b: </label>
+<input id="b"/>
+<p>
+<label for='c'>Введите c: </label>
+<input id="c"/>
+<p>
+<button onclick="func()">Найти корень</button>
+
+<p id="result"></p>
+
+<script>
+    function func(){
+          var a = Number(document.getElementById("a").value);
+          var b = Number(document.getElementById("b").value);
+          var c = Number(document.getElementById("c").value);
+          var d
+          var n
+          var x
+          var x1
+          var x2
+          var result 
+          d=(b*b)-(4*a*c)
+          n=d**0.5
+          if (d<0) {
+            result = 0
+          }
+          else if (d == 0) {
+            x = (-b)/(2*a)
+            result = 2
+          } 
+          else {
+            x1=((-b)-n)/(2*a)
+            x2=((-b)+n)/(2*a)
+            result = 1
+          }
+          if (result == 0) {
+            document.getElementById("result").innerHTML = 'Нет корня';
+          }
+          else if (result==1) {
+            document.getElementById("result").innerHTML = 'x1=' + (x1) + ' ' + 'x2=' + (x2);
+          }
+          else {
+            document.getElementById("result").innerHTML = x;
+          }          
+          }
 </script>
-		</body>
-	</html>
+</body>
+</html>
