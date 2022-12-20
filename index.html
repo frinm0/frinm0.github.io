@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Project</title>
+			<meta charset="UTF-8">
+		</head>  
+		<body>
+			<script>
+//Ввод переменных
+let a=Number(prompt('Введите a: '));
+let b=Number(prompt('Введите b: ')); 
+let c=Number(prompt('Введите c: '));
+let d
+let n
+let x
+let x1
+let x2
+//Нахождение D
+d=(b*b)-(4*a*c)
+n=d**0.5
+//Нахождение корня 
+if (d<0) {
+	alert('Корня нет!');
+}
+else if (d == 0) {
+	x = (-b)/(2*a)
+	alert('x=' + ' ' + (x));
+}	
+else {
+	x1=((-b)-n)/(2*a)
+	x2=((-b)+n)/(2*a)
+	alert('x1=' + (x1) + ' ' + 'x2=' + (x2));
+	alert('x1=' + (x1) + ' ' + 'x2=' + (x2));
+}
+//Вывод информации на странице
+document.write('+');
+</script>
+		</body>
+	</html>
