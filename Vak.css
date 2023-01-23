@@ -1,5 +1,5 @@
 p {
-   color: black
+   color: black;
    }
 
 body {
@@ -15,3 +15,9 @@ body {
 	border-radius: 50px 50px 50px 50px;
 	  }
 	  
+.result {
+	border: 2px double black;
+	background: rgb(180, 180, 180);
+	padding: 10px;
+	border-radius: 25px 25px 25px 25px; 
+}
