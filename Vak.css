@@ -1,4 +1,5 @@
 p {
+	padding-left: 30%;
    color: blue
    }
 
@@ -11,3 +12,7 @@ body {
     background: #fc3; /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
 	  }
+	  
+.text {
+	align: center;
+}
