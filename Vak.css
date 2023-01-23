@@ -1,0 +1,13 @@
+p {
+   color: blue
+   }
+
+body {
+	background-color: rgb(170, 240, 235)
+	}
+
+.brd {
+	border: 4px groove black; /* Параметры границы */
+    background: #fc3; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+	  }
