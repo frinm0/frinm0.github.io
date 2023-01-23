@@ -1,6 +1,5 @@
 p {
-	padding-left: 30%;
-   color: blue
+   color: black
    }
 
 body {
@@ -8,11 +7,11 @@ body {
 	}
 
 .brd {
+	
+	width: 200px;
 	border: 4px groove black; /* Параметры границы */
-    background: #fc3; /* Цвет фона */
+    background: rgb(192, 192, 192); /* Цвет фона */
     padding: 10px; /* Поля вокруг текста */
+	border-radius: 50px 50px 50px 50px;
 	  }
 	  
-.text {
-	align: center;
-}
