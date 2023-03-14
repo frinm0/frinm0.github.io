@@ -1,0 +1,53 @@
+html {
+  background-image: url(banner.jpg);
+
+background-repeat: no-repeat;
+
+background-position: center center;
+
+background-attachment: fixed;
+
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+
+-o-background-size: cover;
+
+background-size: cover;
+}
+
+.table {
+  background-color: #5fad47;
+}
+
+p {
+  font-size: 2em;
+  font-weight: 350;
+}
+
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 250px;
+  color: white;
+  padding: 15px 10px;
+  margin: 10px 20px;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, green 0%, #5ee078 51%, green 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .3s;}
+.gradient-button:hover {
+  background-position: right center;
+}
+
+.button {
+  width: 200px;
+  color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(to left, green, #5ee078 51%, green 100%);
+}
