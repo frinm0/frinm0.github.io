@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="script.js"></script>
+  <title>Проектная работа</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <center>
+  <div>
+  <table border="1" class="table">
+    <tr>
+      <th>№ скважины</th><th>Мощность, м</th>
+    </tr>
+    <tr>
+      <th>1</th><th><input id="1" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>2</th><th><input id="2" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>3</th><th><input id="3" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>4</th><th><input id="4" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>5</th><th><input id="5" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>6</th><th><input id="6" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>7</th><th><input id="7" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>8</th><th><input id="8" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>9</th><th><input id="9" type="number" min="0"></th>
+    </tr>
+    <tr>
+      <th>10</th><th><input id="10" type="number" min="0"></th>
+    </tr>
+  </table>
+</div>
+<div class="down">
+   <table>
+    <tr>
+      <th><p>Средняя мощность рудного тела: </p></th>
+      <th><p id="m"></p></th>
+    </tr>
+  </table>
+
+  <p>Введите площадь (S), м<sup>2</sup>: 
+    <input type="number" id="S"  min="0">
+  </p>
+  <button class="btn" onclick="func()">Расчитать объём</button>
+  
+  <p id="V"></p>
+</div>
+ </center>
+</body>
+</html>
