@@ -42,8 +42,8 @@ function func(){
 
     vo = v1 + v2
     vko = vk1 + vk2
-    document.getElementById("vo").innerHTML = "Объём: " + vo;
-    document.getElementById("vko").innerHTML = "Объём: " + vko;
-    document.getElementById("result").innerHTML = "Общий объём = " + result;
+    document.getElementById("vo").innerHTML = "Объём: " + vo + "    м<sup>3</sup>";
+    document.getElementById("vko").innerHTML = "Объём: " + vko + "    м<sup>3</sup>";
+    document.getElementById("result").innerHTML = "Общий объём = " + result + "    м<sup>3</sup>";
 }
 
