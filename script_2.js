@@ -20,7 +20,7 @@ function func(){
 
     k = sm ** 0.5
 
-    e = (s1 - s2) / s1
+    e = ((s1 - s2) / s1) * 100
 
     if (e <= 40) {
     	v1 = ((s1 + s2) / 2) * l
