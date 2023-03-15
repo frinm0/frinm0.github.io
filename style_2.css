@@ -47,3 +47,15 @@ background-size: cover;
   border-radius: 10px;
   background-image: linear-gradient(to left, green, #5ee078 51%, green 100%);
 }
+
+.form {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.sech {
+  position: absolute;
+  left: 20px;
+  top: 150px;
+}
